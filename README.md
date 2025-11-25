@@ -182,7 +182,11 @@ Semantic Model Refresh (Gold + Trend)
 
 Proje iki farklı semantic model kullanır:
 
-⭐ Gold Semantic Model
+⭐ Gold Semantic Model: IMDB Popular Movies & Series dashboard’u besler
+
+<a href="semanticmodels/gold/semantic_model_gold.png">
+    <img src="semanticmodels/gold/semantic_model_gold.png" width="800">
+</a>
 
 DimContent
 
@@ -192,11 +196,11 @@ Bridge tabloları
 
 FactContentPopularity (latest snapshot)
 
-IMDB Popular Movies & Series dashboard’u besler:
+🔥 Trend Semantic Model: Rank trend analizleri, daily raises/drops, weekly charts üretir.
 
-📸 /semantic_models/gold_model.png
-
-🔥 Trend Semantic Model
+<a href="semanticmodels/trend/semantic_model_trend.png">
+    <img src="semanticmodels/trend/semantic_model_trend.png" width="800">
+</a>
 
 FactContentPopularity (all history)
 
@@ -210,29 +214,37 @@ vw_joined_today
 
 vw_dropped_today
 
-Bu model, rank trend analizleri, daily raises/drops, weekly charts üretir.
-
-📸 /semantic_models/trend_model.png
-
 📊 Dashboard Galerisi
 
 Tüm dashboardlar PNG formatında eklenmiştir.
 
-🎬 Gold Model Dashboard Seti
+🎬 Gold Model Dashboard Sayfaları
 
-Cast Details – All / Movies / Series
+<p align="center">
+  <img src="dashboards/gold/Cast Details- All.png" width="33%" />
+  <img src="dashboards/gold/Cast Details- Movies.png" width="33%" />
+  <img src="dashboards/gold/Cast Details- Series.png" width="33%" />
+</p>
 
-Content Details – All / Movies / Series
+<p align="center">
+  <img src="dashboards/gold/Content Details - All.png" width="33%" />
+  <img src="dashboards/gold/Content Details - Movies.png" width="33%" />
+  <img src="dashboards/gold/Content Details - Series.png" width="33%" />
+</p>
 
-Landing Page – All / Movies / Series
+<p align="center">
+  <img src="dashboards/gold/Landing Page - All.png" width="33%" />
+  <img src="dashboards/gold/Landing Page - Movies.png" width="33%" />
+  <img src="dashboards/gold/Landing Page - Series.png" width="33%" />
+</p>
 
-📎 /dashboards/gold/
-
-📈 Trend Model Dashboard Seti
+📈 Trend Model Dashboard
 
 Rank & Trend Analysis Dashboard (Daily/Weekly Insights)
 
-📎 /dashboards/trend/rankTrendLanding.png
+<a href="dashboards/trend/Rank_Trend_Landing.png">
+    <img src="dashboards/trend/Rank_Trend_Landing.png" width="800">
+</a>
 
 🛠 Teknolojiler
 Katman	Teknoloji
@@ -247,7 +259,7 @@ Format	Delta Tables, Parquet
 
 🚀 Kurulum & Çalıştırma
 1️⃣ Repo’yu Klonla
-git clone https://github.com/oorucelik/imdb-fabric-analytics-pipeline
+git clone https://github.com/oorucelik/orucinephilie-data-engineering
 
 2️⃣ Fabric Lakehouse içinde aşağıdaki klasör yapısını oluştur
 
