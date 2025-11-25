@@ -1,5 +1,27 @@
 📌 IMDb Fabric Analytics Pipeline
 Microsoft Fabric • Lakehouse • Delta • Dataflows Gen2 • Pipelines • Power BI
+## 📚 Table of Contents
+- [Proje Özeti](#-imdb-fabric-analytics-pipeline)
+- [Architecture Overview](#-architecture-overview)
+  - [High-Level Pipeline](#high-level-pipeline)
+  - [Dataflow Architecture](#dataflow-architecture)
+  - [Lakehouse Structure](#lakehouse-structure)
+- [Mimari Genel Bakış](#-mimari-genel-bakış)
+- [Lakehouse Yapısı](#-lakehouse-yapısı)
+- [Dataflow](#-dataflow)
+- [Notebook Görevleri](#-notebook-görevleri)
+- [Pipeline Mimarisi](#-pipeline-mimarisi)
+- [Semantic Modeller](#-semantic-modeller)
+  - [Gold Semantic Model](#gold-semantic-model)
+  - [Trend Semantic Model](#trend-semantic-model)
+- [Dashboard Galerisi](#-dashboard-galerisi)
+  - [Gold Model Dashboard](#gold-model-dashboard)
+  - [Trend Model Dashboard](#trend-model-dashboard)
+- [Teknolojiler](#-teknolojiler)
+- [Kurulum & Çalıştırma](#-kurulum--çalıştırma)
+- [Kazandırdıkları](#bu-proje-ile)
+- [Katkı & İletişim](#-katkı--iletişim)
+
 
 Bu proje, IMDb popüler film ve dizi verilerini başından sonuna tamamen otomatik işleyen, Microsoft Fabric ekosistemi üzerinde tasarlanmış uçtan uca bir Modern Data Engineering projesidir.
 
@@ -258,6 +280,7 @@ Format	Delta Tables, Parquet
 
 
 🚀 Kurulum & Çalıştırma
+
 1️⃣ Repo’yu Klonla
 git clone https://github.com/oorucelik/orucinephilie-data-engineering
 
@@ -270,11 +293,13 @@ git clone https://github.com/oorucelik/orucinephilie-data-engineering
 /Tables/brg/
 
 3️⃣ Dataflow’ları import et
+
 4️⃣ Notebookları Fabric Notebook olarak upload et
 
 (Metodu: New Notebook → Upload)
 
 5️⃣ Pipeline içindeki aktiviteleri sırayla bağla
+
 6️⃣ Semantic modelleri Power BI Service üzerinde oluştur
 
 Gold
@@ -288,9 +313,11 @@ Trend
 ✔ Modern Data Engineering lifecycle
 ✔ Lakehouse mimarisi
 ✔ Delta Lake & Incremental ETL
+
 ✔ API orchestrasyonu
 ✔ Batch işlemler & Retry mekanizmaları
 ✔ Data Modelleme (Star + Bridge)
+
 ✔ Semantic Model Best Practices
 ✔ Trend analiz mimarisi
 ✔ Power BI advanced UI/UX
